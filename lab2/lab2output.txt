@@ -38,7 +38,7 @@ Traceback (most recent call last):
 AssertionError: b'Hello Jon, you are 20 years old.\n' != b'Hi Jon, you are 20 years old.\n' : output is not correct (HINT: must use the sys.argv list, do not forget to import sys)
 
 ----------------------------------------------------------------------
-Ran 13 tests in 0.070s
+Ran 13 tests in 0.068s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
@@ -50,5 +50,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
     OS Platform: linux
     Working Directory: /home/twangmo12/OPS445-ZAA/lab2
-    Start at: Wed Sep 25 12:30:31 2024
+    Start at: Wed Sep 25 12:46:49 2024
 =================================================================
