@@ -32,29 +32,19 @@ test_4 (__main__.lab2c)
 test_0 (__main__.lab2d)
 [Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for file creation: ./lab2d.py ... ok
 test_1 (__main__.lab2d)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py ... ok
-test_2 (__main__.lab2d)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for correct shebang line: ./lab2d.py ... ok
-test_3 (__main__.lab2d)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon ... ok
-test_4 (__main__.lab2d)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 ... ok
-test_5 (__main__.lab2d)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors: ./lab2d.py Jon 20 More ... ok
-test_6 (__main__.lab2d)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 0 args: ./lab2d.py ... FAIL
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py ... FAIL
 
 ======================================================================
-FAIL: test_6 (__main__.lab2d)
-[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test output with 0 args: ./lab2d.py
+FAIL: test_1 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/twangmo12/OPS445-ZAA/lab2/./CheckLab2.py", line 234, in test_6
-    self.assertEqual(stdout, expected_output, msg=error_output)
-AssertionError: b'Usage: ./lab2d.py <name> <age>\n' != b'Usage: ./lab2d.py name age\n' : wrong usage message for 0 args (HINT: use if statements for catching conditions, such as 0 arguments)
+  File "/home/twangmo12/OPS445-ZAA/lab2/./CheckLab2.py", line 186, in test_1
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : your program exited with a error(HINT: try running your program to see the error)
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.124s
+Ran 16 tests in 0.103s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
@@ -66,5 +56,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
     OS Platform: linux
     Working Directory: /home/twangmo12/OPS445-ZAA/lab2
-    Start at: Wed Sep 25 13:14:04 2024
+    Start at: Wed Sep 25 13:18:01 2024
 =================================================================

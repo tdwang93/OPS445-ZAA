@@ -5,14 +5,14 @@
 
 import sys
 
-# Check if the correct number of arguments are provided
+# Check if there are exactly 2 additional arguments
 if len(sys.argv) != 3:
-    print(f"Usage: {sys.argv[0]} name age")  # Updated usage message
-    sys.exit(1)  # Exit with return code 1 to indicate an error
+    print(f"Usage: {sys.argv[0]} name age")  # Print usage message if conditions are not met
+    sys.exit(0)  # Exit with a return code of 0
 
 # Assign command line arguments to variables
 name = sys.argv[1]  # First argument as the name
-age = int(sys.argv[2])  # Second argument as the age, converted to integer
+age = sys.argv[2]   # Second argument as the age (string type)
 
 # Print the required output
 print(f"Hi {name}, you are {age} years old.")
