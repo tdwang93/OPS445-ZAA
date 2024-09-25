@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-# Author: Your Full Name
-# Author ID: your_seneca_id
-# Date Created: yyyy/mm/dd
+# Author: Tandin Wangmo
+# Author ID: twangmo12
+# Date Created: 2024/09/25
 
 import sys
 
