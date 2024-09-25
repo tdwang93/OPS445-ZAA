@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Author: Tandin
-# Author ID: [your_seneca_id]
+# Author ID: twangmo12
 # Date Created: 2024/09/25
 
 timer = 10
