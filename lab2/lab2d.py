@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-# Author: Tandin Wangmo
-# Author ID: twangmo12
-# Date Created: 2024/09/25
+# Author: Your Full Name
+# Author ID: your_seneca_id
+# Date Created: yyyy/mm/dd
 
 import sys
 
 # Check if the correct number of arguments are provided
 if len(sys.argv) != 3:
-    print(f"Usage: {sys.argv[0]} <name> <age>")
-    sys.exit(0)  # Exit with return code 0
+    print(f"Usage: {sys.argv[0]} name age")  # Updated usage message
+    sys.exit(1)  # Exit with return code 1 to indicate an error
 
 # Assign command line arguments to variables
 name = sys.argv[1]  # First argument as the name
