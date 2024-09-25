@@ -26,19 +26,25 @@ test_1 (__main__.lab2c)
 test_2 (__main__.lab2c)
 [Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for correct shebang line: ./lab2c.py ... ok
 test_3 (__main__.lab2c)
-[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jon 20 ... FAIL
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jon 20 ... ok
+test_4 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jen 25 ... ok
+test_0 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for file creation: ./lab2d.py ... ok
+test_1 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py ... FAIL
 
 ======================================================================
-FAIL: test_3 (__main__.lab2c)
-[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test output for: ./lab2c.py Jon 20
+FAIL: test_1 (__main__.lab2d)
+[Lab 2] - [Investigation 2] - [Part 1] - sys.argv and if - Test for errors with 0 args: ./lab2d.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/twangmo12/OPS445-ZAA/lab2/./CheckLab2.py", line 157, in test_3
-    self.assertEqual(stdout, expected_output, msg=error_output)
-AssertionError: b'Hello Jon, you are 20 years old.\n' != b'Hi Jon, you are 20 years old.\n' : output is not correct (HINT: must use the sys.argv list, do not forget to import sys)
+  File "/home/twangmo12/OPS445-ZAA/lab2/./CheckLab2.py", line 186, in test_1
+    self.assertEqual(return_code, 0, msg=error_output)
+AssertionError: 1 != 0 : your program exited with a error(HINT: try running your program to see the error)
 
 ----------------------------------------------------------------------
-Ran 13 tests in 0.074s
+Ran 16 tests in 0.092s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab2.py
@@ -50,5 +56,5 @@ OPS445 Lab Report - System Information for running ./CheckLab2.py
     Python version:  3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
     OS Platform: linux
     Working Directory: /home/twangmo12/OPS445-ZAA/lab2
-    Start at: Wed Sep 25 13:02:49 2024
+    Start at: Wed Sep 25 13:07:50 2024
 =================================================================
